@@ -8,7 +8,8 @@ from datetime import timedelta, timezone
 from typing import Set, Tuple
 from urllib.error import URLError
 from urllib.request import urlopen
-
+from dotenv import load_dotenv
+load_dotenv()
 from telethon import TelegramClient, events
 from telethon.errors import RPCError
 
